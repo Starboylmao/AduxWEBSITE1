@@ -154,6 +154,41 @@ html.is-animating .mil-onepage-nav {
   opacity: 0;
 }
 
+.custom-menu {
+    width: 100%;
+    background: #222; /* Dark background for contrast */
+    padding: 15px 0;
+    position: fixed; /* Keeps it at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensures it's above other content */
+}
+
+.custom-menu ul {
+    display: flex;
+    justify-content: center; /* Centers menu items */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-menu ul li {
+    margin: 0 15px; /* Adds spacing between items */
+}
+
+.custom-menu ul li a {
+    text-decoration: none;
+    color: white; /* Menu text color */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-menu ul li a:hover {
+    color: #f4b400; /* Change color on hover */
+}
+
+
 /* -------------------------------------------
 
 settings
