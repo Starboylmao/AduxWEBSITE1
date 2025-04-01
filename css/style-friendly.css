@@ -1862,7 +1862,7 @@ hero 3
 .mil-hero-3 .mil-hero-main .mil-bottom-panel:before {
   content: "";
   display: block;
-  height: 120px;
+  height: 20px;
   width: 50vw;
   background-color: #D8D8D8;
   position: absolute;
