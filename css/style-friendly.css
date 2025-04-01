@@ -954,7 +954,7 @@ scrollbar
 }
 
 .mil-inner-scroll::-webkit-scrollbar {
-  width: 20px;
+  width: 40px;
   display: block;
   padding-right: 10px;
 }
@@ -963,7 +963,7 @@ scrollbar
 }
 .mil-inner-scroll::-webkit-scrollbar-thumb {
   background: #37CC8D;
-  border: solid 8px #ECECEA;
+  border: solid 5px #ECECEA;
   border-radius: 15px;
 }
 
