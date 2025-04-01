@@ -3593,7 +3593,7 @@ half container
 }
 .fullwidth-video {
     width: 100vw; /* Full width of the viewport */
-    height: aut; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
     display: block; /* Remove any inline spacing */
     object-fit: cover; /* Ensure it covers the area properly */
     margin-bottom: 0; /* Remove extra spacing */
