@@ -3591,6 +3591,20 @@ half container
   -o-object-position: center;
      object-position: center;
 }
+.fullwidth-video {
+    width: 100vw; /* Full width of the viewport */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any inline spacing */
+    object-fit: cover; /* Ensure it covers the area properly */
+    margin-bottom: 0; /* Remove extra spacing */
+}
+
+.fullwidth-video-container {
+    width: 100%; 
+    margin-bottom: 20px; /* Adjust this value to reduce space before the next section */
+    overflow: hidden; /* Prevent overflow issues */
+}
+
 .mil-half-container .mil-image-box .mil-image-frame iframe {
   width: 100%;
   height: 200%;
